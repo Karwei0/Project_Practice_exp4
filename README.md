@@ -27,7 +27,7 @@ ImageAnalysis.Analyzer {
         ...
 }
 ```
-![]%HI9R7}9C3MIAC(I8F(1K1.png](https://cdn.nlark.com/yuque/0/2024/png/38674938/1716538927328-2d0b2df4-5ef3-47f4-9399-fbad78e1b2f3.png#averageHue=%23e0c8ad&clientId=ub2d17eb3-d5e2-4&from=paste&height=171&id=u11ec1b52&originHeight=235&originWidth=954&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=45712&status=done&style=none&taskId=ucdfb2334-f1d8-44d4-9a56-53d5432324a&title=&width=693.8181818181819)<br />2.定位至TODO 2处，在在CameraX的analyze方法内部，将摄像头的输入ImageProxy转化为Bitmap对象，并进一步转化为TensorImage对象
+![%HI9R7}9C3MIAC(I8F(1K1.png](https://cdn.nlark.com/yuque/0/2024/png/38674938/1716538927328-2d0b2df4-5ef3-47f4-9399-fbad78e1b2f3.png#averageHue=%23e0c8ad&clientId=ub2d17eb3-d5e2-4&from=paste&height=171&id=u11ec1b52&originHeight=235&originWidth=954&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=45712&status=done&style=none&taskId=ucdfb2334-f1d8-44d4-9a56-53d5432324a&title=&width=693.8181818181819)<br />2.定位至TODO 2处，在在CameraX的analyze方法内部，将摄像头的输入ImageProxy转化为Bitmap对象，并进一步转化为TensorImage对象
 ```kotlin
 override fun analyze(imageProxy: ImageProxy) {
     ...
@@ -36,7 +36,7 @@ override fun analyze(imageProxy: ImageProxy) {
         ...
 }
 ```
-![4OU{@`1XFZJ}0J]MWZJ1PWR.png](https://cdn.nlark.com/yuque/0/2024/png/38674938/1716538940324-21879ed4-9f82-4cf6-b181-088a40db163a.png#averageHue=%23d6af7b&clientId=ub2d17eb3-d5e2-4&from=paste&height=105&id=u80f13bcc&originHeight=145&originWidth=913&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=20855&status=done&style=none&taskId=udf93ff68-262e-4b8d-998f-b77e68c7451&title=&width=664)<br />3.定位至TODO 3处，对图像进行处理并生成结果
+![4OU{@`1XFZJ}0JMWZJ1PWR.png](https://cdn.nlark.com/yuque/0/2024/png/38674938/1716538940324-21879ed4-9f82-4cf6-b181-088a40db163a.png#averageHue=%23d6af7b&clientId=ub2d17eb3-d5e2-4&from=paste&height=105&id=u80f13bcc&originHeight=145&originWidth=913&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=20855&status=done&style=none&taskId=udf93ff68-262e-4b8d-998f-b77e68c7451&title=&width=664)<br />3.定位至TODO 3处，对图像进行处理并生成结果
 ```kotlin
 override fun analyze(imageProxy: ImageProxy) {
     ...
@@ -48,7 +48,7 @@ override fun analyze(imageProxy: ImageProxy) {
         ...
 }
 ```
-![Z@JV)DQ4Q]Z1DP1BSBIWEAJ.png](https://cdn.nlark.com/yuque/0/2024/png/38674938/1716538950724-a6072d25-d215-4fc9-8578-e6b84b6a0bbf.png#averageHue=%23fcfbfb&clientId=ub2d17eb3-d5e2-4&from=paste&height=197&id=u25994ad6&originHeight=271&originWidth=1360&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=71792&status=done&style=none&taskId=u477937ce-c999-4631-bd3f-32558325622&title=&width=989.0909090909091)<br />4.定位至TODO 4处，将识别的结果加入数据对象Recognition中，包含label和score两个元素，用于后续RecyclerView的数据显示
+![Z@JV)DQ4QZ1DP1BSBIWEAJ.png](https://cdn.nlark.com/yuque/0/2024/png/38674938/1716538950724-a6072d25-d215-4fc9-8578-e6b84b6a0bbf.png#averageHue=%23fcfbfb&clientId=ub2d17eb3-d5e2-4&from=paste&height=197&id=u25994ad6&originHeight=271&originWidth=1360&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=71792&status=done&style=none&taskId=u477937ce-c999-4631-bd3f-32558325622&title=&width=989.0909090909091)<br />4.定位至TODO 4处，将识别的结果加入数据对象Recognition中，包含label和score两个元素，用于后续RecyclerView的数据显示
 ```kotlin
 override fun analyze(imageProxy: ImageProxy) {
     ...
@@ -59,7 +59,7 @@ override fun analyze(imageProxy: ImageProxy) {
         ...
 }
 ```
-![~({0K9W~])E~AMSC1WR[7}5.png](https://cdn.nlark.com/yuque/0/2024/png/38674938/1716538973949-6e96da57-61cb-45f2-ab17-dadf61d88d20.png#averageHue=%23cfaa80&clientId=ub2d17eb3-d5e2-4&from=paste&height=137&id=u11903d69&originHeight=189&originWidth=1278&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=30333&status=done&style=none&taskId=u46e67c6a-4eb4-448e-ae05-a4b71bb42fe&title=&width=929.4545454545455)<br />5.将位于START和END中间，原先用于显示虚假标签的代码注释掉
+![~({0K9W~)E~AMSC1WR7}5.png](https://cdn.nlark.com/yuque/0/2024/png/38674938/1716538973949-6e96da57-61cb-45f2-ab17-dadf61d88d20.png#averageHue=%23cfaa80&clientId=ub2d17eb3-d5e2-4&from=paste&height=137&id=u11903d69&originHeight=189&originWidth=1278&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=30333&status=done&style=none&taskId=u46e67c6a-4eb4-448e-ae05-a4b71bb42fe&title=&width=929.4545454545455)<br />5.将位于START和END中间，原先用于显示虚假标签的代码注释掉
 ```kotlin
 // START - Placeholder code at the start of the codelab. Comment this block of code out.
 // for (i in 0..MAX_RESULT_DISPLAY-1){
